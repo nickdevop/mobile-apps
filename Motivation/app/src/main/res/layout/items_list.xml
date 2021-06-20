@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+        <TextView
+            android:id="@+id/quots"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textAllCaps="true"
+            android:text="hi"
+
+            android:textAlignment="center"
+            android:textColor="@color/teal_200"
+            android:textSize="30dp"
+            android:background="@color/light_red"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+        <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:textAlignment="textEnd"
+        android:padding="6dp"
+        android:textColor="@color/dark_green"
+        android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/quots"
+            android:layout_marginBottom="10dp"
+            android:background="@color/light_green"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
